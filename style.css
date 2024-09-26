@@ -1,0 +1,1558 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    height: 4244px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 0;
+    position: absolute;
+    top: 3812px;
+  }
+  
+  .desktop .frame-2 {
+    align-items: flex-start;
+    background-color: #0c2e82;
+    display: flex;
+    gap: 128px;
+    height: 432px;
+    padding: 88px 108px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .desktop .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+  }
+  
+  .desktop .img {
+    height: 44px;
+    position: relative;
+    width: 294px;
+  }
+  
+  .desktop .text-wrapper {
+    color: #e3ebff;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 287px;
+  }
+  
+  .desktop .social-icons {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    left: 59px;
+    position: absolute;
+    top: 93px;
+    transform: rotate(-90deg);
+  }
+  
+  .desktop .social-icon-facebook {
+    height: 30px;
+    position: relative;
+    transform: rotate(90deg);
+    width: 30px;
+  }
+  
+  .desktop .social-icon-hover {
+    background-image: url(./icon-8.png);
+    background-size: 100% 100%;
+    height: 18px;
+    left: 6px;
+    position: relative;
+    top: 6px;
+    width: 18px;
+  }
+  
+  .desktop .line {
+    height: 32px;
+    object-fit: cover;
+    position: relative;
+    transform: rotate(90deg);
+    width: 1px;
+  }
+  
+  .desktop .social-icon-twitter {
+    height: 18px;
+    left: 6px;
+    position: relative;
+    top: 6px;
+    width: 18px;
+  }
+  
+  .desktop .twitter {
+    height: 16px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 16px;
+  }
+  
+  .desktop .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 26px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #f1efff;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .about-us-services {
+    color: #e3ebff;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 144px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: relative;
+    width: 181px;
+  }
+  
+  .desktop .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-3 {
+    color: #f1efff;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 291px;
+  }
+  
+  .desktop .p {
+    color: #ffffff;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    width: 358px;
+  }
+  
+  .desktop .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .desktop .div-wrapper {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    gap: 8px;
+    height: 64px;
+    padding: 8px 32px;
+    position: relative;
+    width: 416px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    color: #a399df;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .btn {
+    all: unset;
+    align-items: center;
+    background-color: #7b66ff;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 8px;
+    height: 56px;
+    justify-content: center;
+    left: 303px;
+    padding: 16px 38px;
+    position: absolute;
+    top: 24px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .frame-8 {
+    align-items: flex-start;
+    display: flex;
+    gap: 8px;
+    left: 114px;
+    padding: 18px 0px;
+    position: absolute;
+    top: 364px;
+    width: 368px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    color: #6d82b4;
+    font-family: "Outfit-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .line-2 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 1224px;
+  }
+  
+  .desktop .frame-9 {
+    align-items: center;
+    background-color: #f7f5ff;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    left: 0;
+    padding: 96px 0px;
+    position: absolute;
+    top: 2832px;
+    width: 1440px;
+  }
+  
+  .desktop .frame-10 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 18px;
+    position: relative;
+  }
+  
+  .desktop .frame-11 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .desktop .latest-jobs-post {
+    color: transparent;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 56px;
+    font-weight: 600;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    width: 453px;
+  }
+  
+  .desktop .span {
+    color: #0b2b82;
+  }
+  
+  .desktop .text-wrapper-7 {
+    color: #7b66ff;
+  }
+  
+  .desktop .vector {
+    height: 9px;
+    margin-bottom: -0.5px;
+    position: relative;
+    width: 130px;
+  }
+  
+  .desktop .frame-12 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .desktop .frame-13 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .desktop .vector-2 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 247px;
+  }
+  
+  .desktop .frame-14 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .desktop .ellipse {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 52px;
+    height: 104px;
+    position: relative;
+    width: 104px;
+  }
+  
+  .desktop .ellipse-2 {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 12px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+  }
+  
+  .desktop .ellipse-3 {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 20px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .desktop .ellipse-4 {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 28px;
+    height: 56px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 56px;
+  }
+  
+  .desktop .ellipse-5 {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 36px;
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+  
+  .desktop .ellipse-6 {
+    border: 1px solid;
+    border-color: #7b66ff;
+    border-radius: 44px;
+    height: 88px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 88px;
+  }
+  
+  .desktop .vector-3 {
+    height: 7.36px;
+    margin-right: -0.5px;
+    object-fit: cover;
+    position: relative;
+    width: 285.5px;
+  }
+  
+  .desktop .frame-15 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-8 {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: underline;
+    width: 78px;
+  }
+  
+  .desktop .arrow-up-right {
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .desktop .frame-16 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: -250px;
+    margin-right: -250px;
+    position: relative;
+    width: 1940px;
+  }
+  
+  .desktop .frame-17 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 1849px;
+  }
+  
+  .desktop .frame-18 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 312px;
+    padding: 32px;
+    position: relative;
+    width: 496px;
+  }
+  
+  .desktop .frame-19 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .desktop .frame-20 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-9 {
+    color: #8b81d0;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .element-dec {
+    color: #0c2e82;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .line-3 {
+    height: 1px;
+    margin-right: -392px;
+    margin-top: -1135px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .text-wrapper-10 {
+    color: #0c2e82;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 81px;
+  }
+  
+  .desktop .img-2 {
+    height: 48px;
+    object-fit: cover;
+    position: relative;
+    width: 1px;
+  }
+  
+  .desktop .frame-21 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .desktop .wordpress {
+    height: 48px;
+    margin-right: -560px;
+    margin-top: -1199px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .text-wrapper-12 {
+    color: #3d589b;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    width: 432px;
+  }
+  
+  .desktop .line-4 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 214px;
+  }
+  
+  .desktop .frame-22 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 100px;
+    position: relative;
+  }
+  
+  .desktop .frame-23 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .desktop .icon {
+    height: 24px;
+    margin-right: -568px;
+    margin-top: -1351px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .desktop .text-wrapper-13 {
+    color: #3d589b;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .text-wrapper-14 {
+    color: #0c2e82;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: 94px;
+  }
+  
+  .desktop .img-3 {
+    height: 48px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .line-5 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 432px;
+  }
+  
+  .desktop .img-4 {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .desktop .frame-24 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 312px;
+    margin-right: -207px;
+    padding: 32px;
+    position: relative;
+    width: 496px;
+  }
+  
+  .desktop .line-6 {
+    height: 1px;
+    margin-left: -802px;
+    margin-top: -1135px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .line-7 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 98px;
+  }
+  
+  .desktop .arrow-up-right-2 {
+    height: 16px;
+    margin-left: -1116px;
+    margin-top: -1355px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .desktop .frame-25 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    margin-right: -287px;
+    padding: 0px 171px;
+    position: relative;
+    width: 2227px;
+  }
+  
+  .desktop .line-8 {
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 385px;
+  }
+  
+  .desktop .icon-2 {
+    height: 24px;
+    margin-right: -397px;
+    margin-top: -1687px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .desktop .frame-26 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 312px;
+    margin-right: -171px;
+    padding: 32px;
+    position: relative;
+    width: 496px;
+  }
+  
+  .desktop .line-9 {
+    height: 1px;
+    margin-left: -973px;
+    margin-top: -1471px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .figma {
+    height: 48px;
+    margin-left: -973px;
+    margin-top: -1535px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .desktop .line-10 {
+    height: 1px;
+    margin-left: -973px;
+    margin-top: -1471px;
+    object-fit: cover;
+    position: relative;
+    width: 432px;
+  }
+  
+  .desktop .icon-3 {
+    height: 24px;
+    margin-left: -973px;
+    margin-top: -1687px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .desktop .arrow-up-right-3 {
+    height: 16px;
+    margin-left: -1287px;
+    margin-top: -1691px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .desktop .featured-jobs {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    left: 0;
+    padding: 80px 108px;
+    position: absolute;
+    top: 1911px;
+    width: 1440px;
+  }
+  
+  .desktop .frame-27 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 56px;
+    position: relative;
+  }
+  
+  .desktop .frame-28 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .desktop .featured-jobs-2 {
+    color: transparent;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 56px;
+    font-weight: 600;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 388px;
+  }
+  
+  .desktop .vector-4 {
+    height: 9px;
+    margin-bottom: -0.5px;
+    margin-right: -0.5px;
+    position: relative;
+    width: 124px;
+  }
+  
+  .desktop .frame-29 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .desktop .frame-30 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 304px;
+    padding: 32px;
+    position: relative;
+    width: 288px;
+  }
+  
+  .desktop .frame-31 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .desktop .line-11 {
+    height: 32px;
+    object-fit: cover;
+    position: relative;
+    width: 1px;
+  }
+  
+  .desktop .full-time {
+    color: #7b66ff;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 81px;
+  }
+  
+  .desktop .text-wrapper-15 {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .text-wrapper-16 {
+    color: #3d589b;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 64px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    width: 224px;
+  }
+  
+  .desktop .text-wrapper-17 {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .figma-2 {
+    height: 48px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .desktop .frame-32 {
+    align-items: center;
+    background-color: #6f5cf9;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 432px;
+    justify-content: center;
+    left: 108px;
+    position: absolute;
+    top: 1479px;
+    width: 1224px;
+  }
+  
+  .desktop .frame-33 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-18 {
+    color: #ffffff;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 56px;
+    font-weight: 600;
+    height: 72px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 553px;
+  }
+  
+  .desktop .text-wrapper-19 {
+    color: #ffffff;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    width: 648px;
+  }
+  
+  .desktop .button {
+    all: unset;
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    padding: 16px 32px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-20 {
+    color: #7b66ff;
+    font-family: "Bai Jamjuree-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .frame-34 {
+    align-items: flex-start;
+    display: flex;
+    gap: 1078px;
+    height: 431px;
+    left: -108px;
+    position: absolute;
+    top: 4px;
+    width: 1440px;
+  }
+  
+  .desktop .frame-35 {
+    align-items: flex-start;
+    display: flex;
+    height: 432px;
+    margin-bottom: -1px;
+    position: relative;
+    width: 107px;
+  }
+  
+  .desktop .mask-group {
+    height: 328px;
+    margin-right: -39px;
+    position: relative;
+    width: 146px;
+  }
+  
+  .desktop .mask-group-2 {
+    height: 328px;
+    left: 105px;
+    position: absolute;
+    top: 104px;
+    width: 146px;
+  }
+  
+  .desktop .frame-36 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 432px;
+    margin-bottom: -1px;
+    position: relative;
+  }
+  
+  .desktop .mask-group-3 {
+    height: 328px;
+    position: relative;
+    width: 146px;
+  }
+  
+  .desktop .mask-group-4 {
+    height: 328px;
+    left: 105px;
+    position: absolute;
+    top: 103px;
+    width: 146px;
+  }
+  
+  .desktop .category {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    left: 0;
+    padding: 0px 108px 80px;
+    position: absolute;
+    top: 975px;
+    width: 1440px;
+  }
+  
+  .desktop .explore-by-category {
+    height: 50.57px;
+    position: relative;
+    width: 524.72px;
+  }
+  
+  .desktop .frame-37 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #d8d1ff;
+    display: flex;
+    gap: 16px;
+    height: 144px;
+    padding: 0px 24px;
+    position: relative;
+    width: 288px;
+  }
+  
+  .desktop .mask-group-5 {
+    height: 48px;
+    position: relative;
+    width: 48px;
+  }
+  
+  .desktop .frame-38 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-21 {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .text-wrapper-22 {
+    color: #3d589b;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .hero {
+    align-items: flex-start;
+    background-color: #f2f1ff;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 30px 108px 0px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .desktop .frame-39 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 412px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .desktop .frame-40 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 144px;
+    position: relative;
+  }
+  
+  .desktop .frame-41 {
+    height: 24px;
+    position: relative;
+    width: 160px;
+  }
+  
+  .desktop .frame-42 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 48px;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-23 {
+    color: #0e0359;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .btn-2 {
+    all: unset;
+    align-items: center;
+    background-color: #7b66ff;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px 23px;
+    position: relative;
+  }
+  
+  .desktop .frame-43 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    position: relative;
+  }
+  
+  .desktop .frame-44 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .desktop .explore-over {
+    color: transparent;
+    font-family: "Bai Jamjuree-Bold", Helvetica;
+    font-size: 72px;
+    font-weight: 700;
+    height: 272px;
+    letter-spacing: 0;
+    line-height: 96px;
+    margin-top: -1px;
+    position: relative;
+    width: 640px;
+  }
+  
+  .desktop .text-wrapper-24 {
+    color: #3d589b;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    width: 569px;
+  }
+  
+  .desktop .frame-45 {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 117px;
+    padding: 16px;
+    position: relative;
+  }
+  
+  .desktop .frame-46 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 96px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-25 {
+    color: #a0acca;
+    font-family: "Bai Jamjuree-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .line-12 {
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 1px;
+  }
+  
+  .desktop .frame-47 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .desktop .btn-3 {
+    all: unset;
+    align-items: center;
+    background-color: #7b66ff;
+    box-shadow: 0px 26px 73px #7b66ffb0;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    padding: 16px 38px;
+    position: relative;
+  }
+  
+  .desktop .frame-48 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .desktop .vector-5 {
+    height: 56px;
+    position: relative;
+    width: 196px;
+  }
+  
+  .desktop .text-wrapper-26 {
+    color: #9eabcd;
+    font-family: "Bai Jamjuree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .img-carriere {
+    height: 656px;
+    position: relative;
+    width: 547px;
+  }
+  
+  .desktop .frame-49 {
+    align-items: center;
+    display: flex;
+    left: 330px;
+    position: absolute;
+    top: 80px;
+    width: 574px;
+  }
+  
+  .desktop .frame-50 {
+    flex: 1;
+    flex-grow: 1;
+    margin-bottom: -1.79px;
+    margin-top: -0.5px;
+    position: relative;
+  }
+  
+  .desktop .frame-51 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-left: -50px;
+    position: relative;
+  }
+  
+  .desktop .ellipse-7 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 37.06px;
+    height: 74.11px;
+    position: relative;
+    width: 74.11px;
+  }
+  
+  .desktop .ellipse-8 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 8.55px;
+    height: 17px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 17px;
+  }
+  
+  .desktop .ellipse-9 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 14.25px;
+    height: 29px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 29px;
+  }
+  
+  .desktop .ellipse-10 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 19.95px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .desktop .ellipse-11 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 25.65px;
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 51px;
+  }
+  
+  .desktop .ellipse-12 {
+    border: 1px solid;
+    border-color: #d4ccff;
+    border-radius: 31.36px;
+    height: 63px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 63px;
+  }
+  
+  .desktop .frame-52 {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 7px;
+    position: absolute;
+    top: 132px;
+    transform: rotate(101.27deg);
+  }
+  
+  .desktop .frame-53 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 1105px;
+    position: absolute;
+    top: 218px;
+  }
+  
+  .desktop .frame-54 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 158px;
+    position: relative;
+  }
+  
+  .desktop .frame-55 {
+    align-items: center;
+    background-color: #0c2e82;
+    border-radius: 45px;
+    display: flex;
+    gap: 8px;
+    height: 77px;
+    justify-content: center;
+    position: relative;
+    width: 77px;
+  }
+  
+  .desktop .rectangle {
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 46px;
+    height: 45.45px;
+    position: relative;
+    width: 22.27px;
+  }
+  
+  .desktop .arrow {
+    height: 22px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 7px;
+  }
+  
+  .desktop .scroll-down {
+    color: #0b2b82;
+    font-family: "Bai Jamjuree-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 9.36px;
+    line-height: 21.6px;
+    margin-left: -72.5px;
+    margin-right: -72.5px;
+    position: relative;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .frame-56 {
+    flex: 0 0 auto;
+    margin-bottom: -3.68px;
+    margin-left: -0.5px;
+    position: relative;
+  }
+  
+  .desktop .sponsors {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 31px;
+    left: 108px;
+    position: absolute;
+    top: 799px;
+  }
+  
+  .desktop .image {
+    height: 96px;
+    position: relative;
+    width: 745px;
+  }
+  
+  .desktop .image-2 {
+    height: 96px;
+    position: relative;
+    width: 155px;
+  }
