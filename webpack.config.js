@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './index.jsx',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -20,10 +20,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg)$/,
-        include: path.resolve(__dirname, 'assets'),
+        include: path.resolve(__dirname, 'dist/assets'),
         use: {
           loader: 'file-loader',
           options: {
+            limit: 10000,
             name: '[name].[ext]',
             outputPath: 'assets',
           },
@@ -39,6 +40,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    static: './dist',
-  },
+    static: './dist',  // Serve static files from the 'dist' directory
+    open: true,
+  },    
 };

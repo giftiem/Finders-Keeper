@@ -1,55 +1,56 @@
 import React from "react";
-import appStore from "./assets/app-store.png";
-import arrow11 from "/assets/arrow-11.svg";
-import arrowUpRight from "./assets/arrow-up-right.svg";
-import exploreByCategory from "./assets/explore-by-category.svg";
-import facebookBg from "./assets/facebook-bg.svg";
-import figma from "./assets/figma.png";
-import frame21 from "./assets/frame-21.svg";
-import frame26 from "/assets/frame-26.svg";
-import frame from "./assets/frame.svg";
-import icon2 from "./assets/icon-2.png";
-import icon3 from "./assets/icon-3.png";
-import icon4 from "./assets/icon-4.png";
-import icon5 from "./assets/icon-5.png";
-import icon6 from "./assets/icon-6.png";
-import icon7 from "./assets/icon-7.png";
-import icon from "./assets/icon.png";
-import image3 from "./assets/image-3.png";
-import imagePng from "./assets/image.png"; //previously declared as image
-import imageSvg from "./assets/image-1.svg";  //previously declared as image
-import imgCarriere1 from "./assets/img-carriere-1.png";
-import line1 from "./assets/line-1.svg";
-import line2 from "./assets/line-2.svg";
-import line3 from "./assets/line-3.svg";
-import line4 from "./assets/line-4.svg";
-import line5 from "./assets/line-5.svg";
-import mapPin from "./assets/map-pin.svg";
-import maskGroup10 from "./assets/mask-group-10.png";
-import maskGroup11 from "./assets/mask-group-11.png";
-import maskGroup12 from "./assets/mask-group-12.png";
-import maskGroup2 from "./assets/mask-group-2.png";
-import maskGroup3 from "./assets/mask-group-3.png";
-import maskGroup4 from "./assets/mask-group-4.png";
-import maskGroup5 from "./assets/mask-group-5.png";
-import maskGroup6 from "./assets/mask-group-6.png";
-import maskGroup7 from "./assets/mask-group-7.png";
-import maskGroup8 from "./assets/mask-group-8.png";
-import maskGroup9 from "./assets/mask-group-9.png";
-import maskGroup from "./assets/mask-group.png";
-import pinterest from "./assets/pinterest.png";
-import searchPng from "./assets/search.png";  //previously declared as search
-import search from "./assets/search-1.svg";
-import slack from "./assets/slack.png";
-import spotify from "./assets/spotify.png";
+import ReactDOM from 'react-dom/client';
+import appStore from "../dist/assets/app-store.png";
+import arrow11 from "../dist/assets/arrow-11.svg";
+import arrowUpRight from "../dist/assets/arrow-up-right.svg";
+import exploreByCategory from "../dist/assets/explore-by-category.svg";
+import facebookBg from "../dist/assets/facebook-bg.svg";
+import figma from "../dist/assets/figma.png";
+import frame21 from "../dist/assets/frame-21.svg";
+import frame26 from "../dist/assets/frame-26.svg";
+import frame from "../dist/assets/frame.svg";
+import icon2 from "../dist/assets/icon-2.png";
+import icon3 from "../dist/assets/icon-3.png";
+import icon4 from "../dist/assets/icon-4.png";
+import icon5 from "../dist/assets/icon-5.png";
+import icon6 from "../dist/assets/icon-6.png";
+import icon7 from "../dist/assets/icon-7.png";
+import icon from "../dist/assets/icon.png";
+import image3 from "../dist/assets/image-3.png";
+import imagePng from "../dist/assets/image.png"; //previously declared as image
+import imageSvg from "../dist/assets/image-1.svg";  //previously declared as image
+import imgCarriere1 from "../dist/assets/img-carriere-1.png";
+import line1 from "../dist/assets/line-1.svg";
+import line2 from "../dist/assets/line-2.svg";
+import line3 from "../dist/assets/line-3.svg";
+import line4 from "../dist/assets/line-4.svg";
+import line5 from "../dist/assets/line-5.svg";
+import mapPin from "../dist/assets/map-pin.svg";
+import maskGroup10 from "../dist/assets/mask-group-10.png";
+import maskGroup11 from "../dist/assets/mask-group-11.png";
+import maskGroup12 from "../dist/assets/mask-group-12.png";
+import maskGroup2 from "../dist/assets/mask-group-2.png";
+import maskGroup3 from "../dist/assets/mask-group-3.png";
+import maskGroup4 from "../dist/assets/mask-group-4.png";
+import maskGroup5 from "../dist/assets/mask-group-5.png";
+import maskGroup6 from "../dist/assets/mask-group-6.png";
+import maskGroup7 from "../dist/assets/mask-group-7.png";
+import maskGroup8 from "../dist/assets/mask-group-8.png";
+import maskGroup9 from "../dist/assets/mask-group-9.png";
+import maskGroup from "../dist/assets/mask-group.png";
+import pinterest from "../dist/assets/pinterest.png";
+import searchPng from "../dist/assets/search.png";  //previously declared as search
+import search from "../dist/assets/search-1.svg";
+import slack from "../dist/assets/slack.png";
+import spotify from "../dist/assets/spotify.png";
 import "./style.css";
-import telegram from "./assets/telegram.png";
-import twitter from "./assets/twitter.svg";
-import vector10 from "./assets/vector-10.svg";
-import vector4 from "./assets/vector-4.svg";
-import vector7 from "./assets/vector-7.svg";
-import vector9 from "./assets/vector-9.svg";
-import wordpress from "./assets/wordpress.png";
+import telegram from "../dist/assets/telegram.png";
+import twitter from "../dist/assets/twitter.svg";
+import vector10 from "../dist/assets/vector-10.svg";
+import vector4 from "../dist/assets/vector-4.svg";
+import vector7 from "../dist/assets/vector-7.svg";
+import vector9 from "../dist/assets/vector-9.svg";
+import wordpress from "../dist/assets/wordpress.png";
 
 export const Desktop = () => {
   return (
@@ -195,7 +196,7 @@ export const Desktop = () => {
                         <div className="text-wrapper-9">JOB TYPE</div>
                         <div className="text-wrapper-10">FULL TIME</div>
                       </div>
-                      <img className="img-2" alt="Line" src={image} />
+                      <img className="img-2" alt="Line" src={imageSvg} />
                       <div className="frame-7">
                         <div className="text-wrapper-9">SALARY</div>
                         <div className="text-wrapper-10">$10K-$15K</div>
@@ -385,7 +386,7 @@ export const Desktop = () => {
                 <img className="line-5" alt="Line" src={line4} />
                 <div className="frame-22">
                   <div className="frame-23">
-                    <img className="img-4" alt="Icon" src={image} />
+                    <img className="img-4" alt="Icon" src={imagePng} />
                     <div className="text-wrapper-13">London, United Kingdom</div>
                   </div>
                   <div className="frame-15">
@@ -835,3 +836,6 @@ export const Desktop = () => {
     </div>
   );
 };
+// Create a root and render the Desktop component
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Desktop />);
