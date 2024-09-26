@@ -1,26 +1,44 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.jsx', // Entry point of your app
+  entry: './index.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist'), // Output directory
-    filename: 'bundle.js', // Output file name
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/, // Apply Babel to both .js and .jsx files
-        exclude: /node_modules/, // Ignore node_modules directory
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
         use: {
-          loader: 'babel-loader', // Use Babel loader to transpile files
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+          },
         },
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        include: path.resolve(__dirname, 'assets'),
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'assets',
+          },
+        },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx'], // Automatically resolve these extensions
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
-    static: './dist', // Where the static files will be served from
+    static: './dist',
   },
 };
