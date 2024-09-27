@@ -1227,7 +1227,8 @@
     gap: 8px;
     justify-content: center;
     padding: 8px 23px;
-    position: relative;
+    position: relative;  
+    margin-left: -90px;
   }
   
   .desktop .frame-43 {
