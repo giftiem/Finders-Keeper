@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="resume-builder">
+      <header>Create Your Resume</header>
+      <form id="resumeForm" action="#">
+        <!-- Personal Information -->
+        <h2>Personal Information</h2>
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Phone Number" required />
+        
+        <!-- Education -->
+        <h2>Education</h2>
+        <input type="text" id="school" placeholder="School/University" required />
+        <input type="text" id="degree" placeholder="Degree" required />
+        <input type="text" id="gradYear" placeholder="Graduation Year" required />
+        
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <textarea id="skills" placeholder="List your skills" required></textarea>
+
+        <!-- Work Experience -->
+        <h2>Work Experience</h2>
+        <input type="text" id="jobTitle" placeholder="Job Title" required />
+        <input type="text" id="company" placeholder="Company" required />
+        <textarea id="jobDescription" placeholder="Describe your role"></textarea>
+
+        <!-- Submit -->
+        <input type="submit" value="Generate Resume" />
+      </form>
+    </section>
+
+    <!-- JavaScript for dynamic form submission -->
+    <script src="script.js"></script>
+  </body>
+</html>
