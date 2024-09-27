@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Sign-In</title>
+    <style>
+        /* Your existing CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F2F7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .button-group button {
+            flex: 1;
+            margin: 0 5px;
+            padding: 10px;
+            border: 1px solid #7F58FF;
+            background-color: #fff;
+            color: #7F58FF;
+            cursor: pointer;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .button-group button.active {
+            background-color: #7F58FF;
+            color: white;
+        }
+        .button-group button:hover {
+            background-color: #6F4DE0;
+            color: white;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #7F58FF;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        .login-btn:hover {
+            background-color: #6F4DE0;
+        }
+        .or {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #666;
+        }
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+        }
+        .social-login button {
+            flex: 1;
+            margin: 0 5px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .social-login button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button-group">
+            <button class="active">Job Seeker</button>
+            <button>Entrepreneur</button>
+        </div>
+        
+        <div class="input-group">
+            <input type="email" placeholder="Email Address">
+        </div>
+        
+        <div class="input-group">
+            <input type="password" placeholder="Password">
+        </div>
+        
+        <div class="remember-forgot">
+            <label><input type="checkbox"> Remember Me</label>
+            <a href="#">Forgot Password?</a>
+        </div>
+        
+        <button class="login-btn">LOGIN</button>
+        
+        <div class="or">OR</div>
+        
+        <div class="social-login">
+            <button id="linkedin-login">LinkedIn</button>
+            <button>Google</button>
+        </div>
+        
+        <script>
+            document.getElementById('linkedin-login').addEventListener('click', () => {
+                // Simulate LinkedIn login
+                const mockUser = {
+                    name: "Gift Mphuthi",
+                    email: "gift-mphuthi@linkedin.com"
+                };
+                
+                // Show login alert
+                alert(`Logged in as ${mockUser.name} (${mockUser.email})`);
+                
+                // Log user details to the console
+                console.log(`User: ${mockUser.name}, Email: ${mockUser.email}`);
+                
+                // Redirect to profile.html
+                window.location.href = 'profile.html';
+            });
+        </script>
+    </div>
+</body>
+</html>

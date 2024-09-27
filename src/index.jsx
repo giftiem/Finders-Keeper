@@ -757,7 +757,7 @@ export const Desktop = () => {
                     </div></a> 
                   </div>
                 </div>
-                <button className="btn-2">
+                <button className="btn-2" onClick={() => window.location.href = 'sign-in.html'}>
                   <div className="text-wrapper-5">Sign In</div>
                 </button>
               </div>

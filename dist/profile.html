@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finders-Keepers Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Icons Library -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F2F2F7;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .dashboard-container {
+            width: 90%;
+            max-width: 1200px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .welcome {
+            font-size: 28px;
+            font-weight: bold;
+            color: #7F58FF;
+        }
+        .button {
+            padding: 10px 20px;
+            background: linear-gradient(to right, #7F58FF, #6F4DE0);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: linear-gradient(to right, #6F4DE0, #7F58FF);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card .icon {
+            font-size: 40px;
+            color: #7F58FF;
+            margin-bottom: 15px;
+        }
+        .section-title {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .card p {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="welcome">Welcome, Jane Doe!</div>
+            <a href="#" class="button">Log Out</a>
+        </div>
+
+        <!-- Grid Container for Dashboard Sections -->
+        <div class="grid-container">
+            <!-- Profile Overview Section -->
+            <div class="card">
+                <div class="icon"><i class="fas fa-user"></i></div>
+                <div class="section-title">Profile Overview</div>
+                <p><strong>Location:</strong> Johannesburg</p>
+                <p><strong>Skills:</strong> Data Analysis, Project Management</p>
+                <p><strong>Job Preferences:</strong> Remote, Full-time</p>
+                <p><strong>Accessibility Needs:</strong> Wheelchair accessible</p>
+            </div>
+
+            <!-- Job Recommendations Section -->
+            <div class="card">
+                <div class="icon"><i class="fas fa-briefcase"></i></div>
+                <div class="section-title">Job Recommendations</div>
+                <p>1. Data Analyst - Remote</p>
+                <p>2. Project Manager - Hybrid</p>
+                <a href="#" class="button">View All Jobs</a>
+            </div>
+
+            <!-- AI Tools Section -->
+            <div class="card">
+                <div class="icon"><i class="fas fa-tools"></i></div>
+                <div class="section-title">AI Tools</div>
+                <a href="#" class="button">AI Resume Builder</a><br><br>
+                <a href="#" class="button">Job Matching</a><br><br>
+                <a href="#" class="button">Accessibility Settings</a>
+            </div>
+
+            <!-- Feedback Section -->
+            <div class="card">
+                <div class="icon"><i class="fas fa-comment-dots"></i></div>
+                <div class="section-title">Feedback Corner</div>
+                <p>Share your experience with recruitment agencies.</p>
+                <a href="#" class="button">Leave Feedback</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
