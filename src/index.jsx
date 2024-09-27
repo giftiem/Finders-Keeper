@@ -16,6 +16,7 @@ import icon5 from "../dist/assets/icon-5.png";
 import icon6 from "../dist/assets/icon-6.png";
 import icon7 from "../dist/assets/icon-7.png";
 import icon from "../dist/assets/icon.png";
+import chatbot from "../dist/assets/chatbox-icon.svg";
 import image3 from "../dist/assets/image-3.png";
 import imagePng from "../dist/assets/image.png"; //previously declared as image
 import imageSvg from "../dist/assets/image-1.svg";  //previously declared as image
@@ -752,6 +753,8 @@ export const Desktop = () => {
                     <div className="text-wrapper-23">Find Jobs</div>
                     <div className="text-wrapper-23">Latest Jobs</div>
                     <div className="text-wrapper-23">Browse Companies</div>
+                    <a href="chatbot.html"><div className="text-wrapper-23">Entrepreneurs Community
+                    </div></a> 
                   </div>
                 </div>
                 <button className="btn-2">

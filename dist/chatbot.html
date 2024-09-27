@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Business Coach Chatbot</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           padding: 20px;
+       }
+       #chatbox {
+           border: 1px solid #ccc;
+           padding: 10px;
+           width: 50%;
+           height: 400px;
+           overflow-y: auto;
+           margin-bottom: 10px;
+       }
+       .message {
+           margin: 5px 0;
+       }
+       .user { text-align: right; color: blue; }
+       .ai { text-align: left; color: green; }
+       #input-box {
+           width: 50%;
+           padding: 10px;
+       }
+   </style>
+</head>
+<body>
+
+   <h2>Welcome, I am Your Business Coach</h2>
+   <div id="chatbox"></div>
+   <input type="text" id="input-box" placeholder="Ask your business question..." />
+   <button id="send-btn">Send</button>
+   <h3>Or</h3>
+   <p>Sign up to join other like minded people like you, click the button below</p>
+   <a href="community.html"><button id="chat-btn">Sign Up</button></a> 
+
+   <script>
+       document.getElementById('send-btn').addEventListener('click', function () {
+           let userInput = document.getElementById('input-box').value;
+           if (userInput.trim() !== "") {
+               displayMessage(userInput, 'user');
+               document.getElementById('input-box').value = '';
+
+               // Call the backend API
+               fetch('/ask', {
+                   method: 'POST',
+                   headers: { 'Content-Type': 'application/json' },
+                   body: JSON.stringify({ message: userInput })
+               })
+               .then(response => response.json())
+               .then(data => {
+                   displayMessage(data.response, 'ai');
+               });
+           }
+       });
+
+       function displayMessage(text, sender) {
+           let chatbox = document.getElementById('chatbox');
+           let messageDiv = document.createElement('div');
+           messageDiv.classList.add('message', sender);
+           messageDiv.textContent = text;
+           chatbox.appendChild(messageDiv);
+           chatbox.scrollTop = chatbox.scrollHeight;
+       }
+   </script>
+
+</body>
+</html>
