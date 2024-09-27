@@ -752,7 +752,7 @@ export const Desktop = () => {
                   <div className="frame-42">
                     <a href="" > <div className="text-wrapper-23">Find Learnership/internship</div></a>
                     <a href="" ><div className="text-wrapper-23">Latest Jobs</div></a>
-                    <a href="bursaries.html" ><div className="text-wrapper-23">Browse Bursaries</div></a>
+                    <a href="" ><div className="text-wrapper-23">Browse Bursaries</div></a>
                     <a href="chatbot.html"><div className="text-wrapper-23">Entrepreneurs Community
                     </div></a> 
                   </div>
@@ -778,21 +778,23 @@ export const Desktop = () => {
                     <div className="frame-45">
                       <div className="frame-46">
                         <div className="frame-14">
-                          <img className="img-4" alt="Search" src={search} />
-                          <div className="text-wrapper-25">Keyword</div>
+                         
+                          <div className="text-wrapper-25"></div>
                         </div>
-                        <img className="line-12" alt="Line" src={line1} />
+                       
                         <div className="frame-47">
-                          <img className="img-4" alt="Map pin" src={mapPin} />
-                          <div className="text-wrapper-25">Location</div>
+                          
+                          <div className="text-wrapper-25">
+                            <input id="keyword" type="text"></input>
+                          </div>
                         </div>
                       </div>
                       <button className="btn-3">
-                        <div className="text-wrapper-5">Search</div>
+                        <div className="text-wrapper-5" >Search</div>
                       </button>
                     </div>
-                    <div className="frame-48">
-                      <img className="vector-5" alt="Vector" src={vector4} />
+                    <div id="searchBtn" className="frame-48">
+                    <img className="vector-5" alt="Vector" src={vector4} />
                       <p className="text-wrapper-26">Tags: Digital Marketer, UX Designer, Data Analyst</p>
                     </div>
                   </div>
