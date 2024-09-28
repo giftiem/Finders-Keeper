@@ -1,0 +1,272 @@
+[
+    {
+        "title": "Caretaker",
+        "company": "Absolute Pets",
+        "location": "Kempton Park, Gauteng",
+        "summary": "Maintain premises, perform basic repairs, and ensure safety standards are met."
+    },
+    {
+        "title": "Software Developer",
+        "company": "Heineken International B.V.",
+        "location": "Johannesburg, Gauteng 2000",
+        "summary": "Develop software applications, write code, and test software functionalities."
+    },
+    {
+        "title": "Sales Assistant",
+        "company": "Genius Premium Tuition",
+        "location": "Fourways, Gauteng",
+        "summary": "Assist customers in selecting products, provide information, and process sales transactions."
+    },
+    {
+        "title": "Cleaner",
+        "company": "Fly Safair",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Maintain cleanliness in offices, public areas, and restrooms."
+    },
+    {
+        "title": "Retail Store Supervisor",
+        "company": "ADvTECH",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Oversee daily store operations, manage staff, and ensure customer satisfaction."
+    },
+    {
+        "title": "Civil Engineer",
+        "company": "Absolute Pets",
+        "location": "Kempton Park, Gauteng",
+        "summary": "Design, build, and supervise infrastructure projects, including roads and bridges."
+    },
+    {
+        "title": "Receptionist",
+        "company": "Wavebreak Media",
+        "location": "Cape Town, Western Cape",
+        "summary": "Handle phone calls, welcome visitors, and perform basic administrative tasks."
+    },
+    {
+        "title": "Data Entry Clerk",
+        "company": "Solenis",
+        "location": "Kempton Park, Gauteng",
+        "summary": "Input data into computer systems, maintain records, and ensure data accuracy."
+    },
+    {
+        "title": "Barista",
+        "company": "Genius Premium Tuition",
+        "location": "Fourways, Gauteng",
+        "summary": "Prepare and serve coffee, maintain the workspace, and provide customer service."
+    },
+    {
+        "title": "Accountant",
+        "company": "Eco Renew Recyclers (Pty) Ltd",
+        "location": "Alberton, Gauteng",
+        "summary": "Prepare financial statements, manage accounts, and ensure compliance with regulations."
+    },
+    {
+        "title": "Retail Stock Clerk",
+        "company": "Webhelp",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Organize and restock shelves, keep track of inventory, and assist customers."
+    },
+    {
+        "title": "Cashier",
+        "company": "OILY SA (Pty) Ltd",
+        "location": "Remote in Gauteng, Gauteng",
+        "summary": "Operate cash registers, handle customer transactions, and provide excellent customer service."
+    },
+    {
+        "title": "Farm Worker",
+        "company": "Heineken International B.V.",
+        "location": "Johannesburg, Gauteng 2000",
+        "summary": "Assist in planting, cultivating, and harvesting crops on the farm."
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Fly Safair",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Develop, test, and maintain software applications to meet user requirements."
+    },
+    {
+        "title": "Ticketing Agent",
+        "company": "Eco Renew Recyclers (Pty) Ltd",
+        "location": "Alberton, Gauteng",
+        "summary": "Assist customers in booking tickets, providing information, and handling payments."
+    },
+    {
+        "title": "Warehouse Packer",
+        "company": "OILY SA (Pty) Ltd",
+        "location": "Remote in Gauteng, Gauteng",
+        "summary": "Pack and prepare products for shipping, maintain order, and follow safety guidelines."
+    },
+    {
+        "title": "Operations Manager",
+        "company": "OILY SA (Pty) Ltd",
+        "location": "Remote in Gauteng, Gauteng",
+        "summary": "Oversee company operations, manage teams, and optimize business processes."
+    },
+    {
+        "title": "Delivery Driver",
+        "company": "Red Bull",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Deliver products to customers' locations, follow delivery schedules, and maintain logs."
+    },
+    {
+        "title": "Home Caregiver",
+        "company": "Red Bull",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Provide home care services to elderly or disabled individuals, assisting with daily tasks."
+    },
+    {
+        "title": "Retail Assistant",
+        "company": "Eco Renew Recyclers (Pty) Ltd",
+        "location": "Alberton, Gauteng",
+        "summary": "Assist in daily store operations, manage stock, and support customers."
+    },
+    {
+        "title": "Marketing Manager",
+        "company": "Fly Safair",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Plan and execute marketing strategies to promote products and services."
+    },
+    {
+        "title": "Clothing Store Attendant",
+        "company": "Genius Premium Tuition",
+        "location": "Fourways, Gauteng",
+        "summary": "Assist customers in selecting clothing items, manage fitting rooms, and process payments."
+    },
+    {
+        "title": "IT Support Specialist",
+        "company": "ADvTECH",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Provide technical support, troubleshoot hardware and software issues."
+    },
+    {
+        "title": "Call Center Agent",
+        "company": "ADvTECH",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Handle inbound and outbound calls, resolve customer issues, and provide information."
+    },
+    {
+        "title": "Project Manager",
+        "company": "Webhelp",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Oversee projects, manage teams, and ensure projects meet deadlines and budgets."
+    },
+    {
+        "title": "Civil Engineer",
+        "company": "TFG",
+        "location": "Kyalami, Gauteng",
+        "summary": "Design, plan, and supervise construction projects such as roads and buildings."
+    },
+    {
+        "title": "Architect",
+        "company": "MCE Electric",
+        "location": "Pretoria, Gauteng",
+        "summary": "Design building plans, oversee construction projects, and collaborate with engineers."
+    },
+    {
+        "title": "Warehouse Assistant",
+        "company": "Webhelp",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Assist in receiving, storing, and managing inventory in the warehouse."
+    },
+    {
+        "title": "Human Resources Manager",
+        "company": "Redefine Properties Limited",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Manage HR activities, including recruitment, training, and employee relations."
+    },
+    {
+        "title": "Waiter/Waitress",
+        "company": "MCE Electric",
+        "location": "Pretoria, Gauteng",
+        "summary": "Take food and drink orders, serve customers, and ensure a pleasant dining experience."
+    },
+    {
+        "title": "Security Guard",
+        "company": "TFG",
+        "location": "Kyalami, Gauteng",
+        "summary": "Monitor premises, ensure security, and respond to any incidents on site."
+    },
+    {
+        "title": "Packhouse Worker",
+        "company": "Wavebreak Media",
+        "location": "Cape Town, Western Cape",
+        "summary": "Sort, pack, and prepare agricultural products for distribution."
+    },
+    {
+        "title": "Retail Stock Clerk",
+        "company": "Webhelp",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Organize and restock shelves, keep track of inventory, and assist customers."
+    },
+    {
+        "title": "Gardener",
+        "company": "Redefine Properties Limited",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Maintain gardens, mow lawns, and perform landscaping tasks."
+    },
+    {
+        "title": "Shop Assistant",
+        "company": "Redefine Properties Limited",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Assist in store maintenance, organize products, and support sales activities."
+    },
+    {
+        "title": "Shop Cashier",
+        "company": "Solenis",
+        "location": "Kempton Park, Gauteng",
+        "summary": "Handle customer payments, operate cash registers, and assist with sales."
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Wavebreak Media",
+        "location": "Cape Town, Western Cape",
+        "summary": "Analyze large datasets, build predictive models, and derive actionable insights."
+    },
+    {
+        "title": "Graphic Designer",
+        "company": "Wavebreak Media",
+        "location": "Cape Town, Western Cape",
+        "summary": "Create visual content, design marketing materials, and develop branding elements."
+    },
+    {
+        "title": "Home Caregiver",
+        "company": "Red Bull",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Provide home care services to elderly or disabled individuals, assisting with daily tasks."
+    },
+    {
+        "title": "Personal Shopper",
+        "company": "MCE Electric",
+        "location": "Pretoria, Gauteng",
+        "summary": "Assist customers in selecting and purchasing products, offering personalized service."
+    },
+    {
+        "title": "Financial Analyst",
+        "company": "Solenis",
+        "location": "Kempton Park, Gauteng",
+        "summary": "Analyze financial data, prepare reports, and assist in decision-making processes."
+    },
+    {
+        "title": "Hotel Housekeeper",
+        "company": "Fly Safair",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Clean and maintain guest rooms and public areas to hotel standards."
+    },
+    {
+        "title": "Research Scientist",
+        "company": "Genius Premium Tuition",
+        "location": "Fourways, Gauteng",
+        "summary": "Conduct scientific research, analyze results, and publish findings."
+    },
+    {
+        "title": "Store Merchandiser",
+        "company": "Heineken International B.V.",
+        "location": "Johannesburg, Gauteng 2000",
+        "summary": "Arrange product displays, stock shelves, and ensure the store's visual presentation is attractive."
+    },
+    {
+        "title": "Dentist",
+        "company": "Webhelp",
+        "location": "Johannesburg, Gauteng",
+        "summary": "Diagnose and treat dental conditions, perform dental surgeries, and promote oral health."
+    }
+]

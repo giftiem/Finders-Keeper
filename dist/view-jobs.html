@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finders-Keepers Job Listings</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Finders-Keepers color scheme */
+        :root {
+            --primary-color: #7F58FF; /* Purple */
+            --secondary-color: #6F4DE0; /* Darker Purple */
+            --background-color: #F2F2F7; /* Light grey */
+            --card-background: #ffffff; /* White */
+            --text-color: #333333; /* Dark grey */
+            --light-text-color: #666666; /* Light grey text */
+        }
+
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .dashboard-container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: var(--card-background);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Filters section */
+        .filters {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filters input,
+        .filters select {
+            padding: 10px;
+            border: 1px solid var(--secondary-color);
+            border-radius: 25px;
+            outline: none;
+            flex: 1;
+        }
+
+        /* Job listing styles */
+        .job-listing {
+            background-color: var(--card-background);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .job-company,
+        .job-location,
+        .job-summary {
+            margin: 5px 0;
+            color: var(--text-color);
+        }
+
+        /* Search and filter button */
+        button {
+            padding: 10px 20px;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-align: center;
+        }
+
+        button:hover {
+            background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Finders-Keepers Job Listings</h1>
+
+        <!-- Filters section -->
+        <div class="filters">
+            <input type="text" id="search-bar" placeholder="Search jobs...">
+            <select id="location-filter">
+                <option value="">Select Location</option>
+                <option value="Gauteng">Gauteng</option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="Pretoria">Pretoria</option>
+                <!-- Add more locations as needed -->
+            </select>
+            <select id="title-filter">
+                <option value="">Select Job Title</option>
+                <option value="Cashier">Cashier</option>
+                <option value="Sales Assistant">Sales Assistant</option>
+                <option value="Receptionist">Receptionist</option>
+                <!-- Add more job titles as needed -->
+            </select>
+            <button onclick="filterJobs()">Filter</button>
+        </div>
+
+        <!-- Jobs container -->
+        <div id="jobs-container">
+            <!-- Job listings will be inserted here -->
+        </div>
+    </div>
+
+    <script>
+        let jobsData = [];
+
+        // Fetch jobs from the JSON file
+        async function fetchJobs() {
+            try {
+                const response = await fetch('../jobs.json');
+                if (!response.ok) throw new Error('Failed to fetch job listings.');
+
+                jobsData = await response.json();
+                displayJobs(jobsData);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('jobs-container').innerHTML = '<p>Failed to load job listings. Please try again later.</p>';
+            }
+        }
+
+        // Display jobs in the container
+        function displayJobs(jobs) {
+            const container = document.getElementById('jobs-container');
+            container.innerHTML = ''; // Clear previous content
+
+            if (jobs.length === 0) {
+                container.innerHTML = '<p>No jobs found. Try adjusting your filters.</p>';
+                return;
+            }
+
+            jobs.forEach(job => {
+                const jobDiv = document.createElement('div');
+                jobDiv.className = 'job-listing';
+
+                jobDiv.innerHTML = `
+                    <div class="job-title">${job.title}</div>
+                    <div class="job-company">Company: ${job.company}</div>
+                    <div class="job-location">Location: ${job.location}</div>
+                    <div class="job-summary">Summary: ${job.summary}</div>
+                `;
+
+                container.appendChild(jobDiv);
+            });
+        }
+
+        // Filter jobs based on user input
+        function filterJobs() {
+            const searchTerm = document.getElementById('search-bar').value.toLowerCase();
+            const location = document.getElementById('location-filter').value;
+            const title = document.getElementById('title-filter').value;
+
+            const filteredJobs = jobsData.filter(job => {
+                const matchesSearch = job.title.toLowerCase().includes(searchTerm);
+                const matchesLocation = location ? job.location.toLowerCase().includes(location.toLowerCase()) : true;
+                const matchesTitle = title ? job.title.toLowerCase() === title.toLowerCase() : true;
+
+                return matchesSearch && matchesLocation && matchesTitle;
+            });
+
+            displayJobs(filteredJobs);
+        }
+
+        // Fetch jobs when the page loads
+        fetchJobs();
+    </script>
+</body>
+</html>
