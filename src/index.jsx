@@ -750,9 +750,9 @@ export const Desktop = () => {
                 <div className="frame-40">
                   <img className="frame-41" alt="Frame" src={frame} />
                   <div className="frame-42">
-                    <a href="" > <div className="text-wrapper-23">Find Learnership/internship</div></a>
+                    <a href="learnership_internship.html" > <div className="text-wrapper-23">Find Learnership/internship</div></a>
                     <a href="jobs.html" ><div className="text-wrapper-23">Latest Jobs</div></a>
-                    <a href="" ><div className="text-wrapper-23">Browse Bursaries</div></a>
+                    <a href="bursaries.html" ><div className="text-wrapper-23">Browse Bursaries</div></a>
                     <a href="chatbot.html"><div className="text-wrapper-23">Entrepreneurs Community
                     </div></a> 
                   </div>
@@ -765,6 +765,8 @@ export const Desktop = () => {
                 <div className="frame-43">
                   <div className="frame-44">
                     <p className="explore-over">
+                    <span className="span">Finders Keeper </span>
+                    
                       <span className="span">Explore Over </span>
                       <span className="text-wrapper-7">7,000+</span>
                       <span className="span"> Job Opportunities</span>
