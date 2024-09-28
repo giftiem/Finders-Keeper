@@ -751,7 +751,7 @@ export const Desktop = () => {
                   <img className="frame-41" alt="Frame" src={frame} />
                   <div className="frame-42">
                     <a href="" > <div className="text-wrapper-23">Find Learnership/internship</div></a>
-                    <a href="" ><div className="text-wrapper-23">Latest Jobs</div></a>
+                    <a href="jobs.html" ><div className="text-wrapper-23">Latest Jobs</div></a>
                     <a href="" ><div className="text-wrapper-23">Browse Bursaries</div></a>
                     <a href="chatbot.html"><div className="text-wrapper-23">Entrepreneurs Community
                     </div></a> 

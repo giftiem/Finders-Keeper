@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .job-results {
+            margin-top: 20px;
+        }
+        .job {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .job h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Job Search Results</h1>
+
+    <div id="job-results" class="job-results">
+        <!-- Job results will be displayed here -->
+    </div>
+
+    <script>
+        const data = JSON.stringify({
+            search_term: 'web',
+            location: 'mumbai',
+            results_wanted: 10,
+            site_name: ['indeed', 'linkedin', 'zip_recruiter', 'glassdoor'],
+            distance: 50,
+            job_type: 'fulltime',
+            is_remote: false,
+            linkedin_fetch_description: false,
+            hours_old: 72
+        });
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.addEventListener('readystatechange', function () {
+            if (this.readyState === this.DONE) {
+                // Parse the JSON response
+                const response = JSON.parse(this.responseText);
+
+                // Get the container where the job results will be displayed
+                const jobResultsContainer = document.getElementById('job-results');
+                
+                // Check if we have job results
+                if (response.jobs && response.jobs.length > 0) {
+                    response.jobs.forEach(job => {
+                        // Create a div for each job
+                        const jobDiv = document.createElement('div');
+                        jobDiv.classList.add('job');
+
+                        // Add job title and description
+                        jobDiv.innerHTML = `
+                            <h3>${job.title}</h3>
+                            <p><strong>Company:</strong> ${job.company_name}</p>
+                            <p><strong>Location:</strong> ${job.location}</p>
+                            <p><strong>Type:</strong> ${job.job_type}</p>
+                            <a href="${job.url}" target="_blank">View Job</a>
+                        `;
+
+                        // Append the job div to the results container
+                        jobResultsContainer.appendChild(jobDiv);
+                    });
+                } else {
+                    jobResultsContainer.innerHTML = '<p>No jobs found.</p>';
+                }
+            }
+        });
+
+        xhr.open('POST', 'https://jobs-search-api.p.rapidapi.com/getjobs');
+        xhr.setRequestHeader('x-rapidapi-key', 'ff8f3f22e8msh7363cf3976a9401p1db451jsnfd39399f02be');
+        xhr.setRequestHeader('x-rapidapi-host', 'jobs-search-api.p.rapidapi.com');
+        xhr.setRequestHeader('Content-Type', 'application/json');
+
+        xhr.send(data);
+    </script>
+
+</body>
+</html>
